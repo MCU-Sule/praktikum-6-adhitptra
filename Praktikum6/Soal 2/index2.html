@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="author" content="Adhitya PPT 2172024">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url(background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Mulish', sans-serif;
+        text-align: center;
+    }
+    .judul {
+        color: #0014a8;
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .display {
+        display: flex;
+    }
+    .kotak1 {
+        width: 300px;
+        height: 700px;
+        margin-left: 565px;
+        padding-right: 90px;
+        margin-top: 70px;
+        background-color:  rgba(200, 214, 229,0.8);
+    }
+    .signin {
+        font-size: 30px;
+        padding-top: 80px;
+        padding-left: 90px;
+    }
+    .kiri {
+        margin-left: 55px;
+        text-align: left;
+        margin-top: 50px;
+        color: grey;
+        font-size: 20px;
+    }
+    .kiri2 {
+        margin-left: 55px;
+        text-align: left;
+        margin-top: 25px;
+        color: grey;
+        font-size: 20px;
+    }
+    .input {
+        width: 280px;
+        outline-width: 0;
+        border: none;
+        border-bottom: 1px solid grey;
+        background-color: unset;
+    }
+    .butsign {
+        background-color: #2ed573;
+        color: white;
+        border-radius: 50px;
+        height: 40px;
+        width: 150px;
+        transition: 0.3s;
+        border: 2px solid #2ed573;
+        margin-left: 90px;
+        margin-right: 25px;
+        margin-top: 80px;
+    }
+    .butsign:hover {
+        background-color: rgba(200, 214, 229,0.8);
+        color: #2ed573;
+    }
+    .forgot {
+        color: blue;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-right: 12px;
+        padding-left: 78px;
+    }
+    .kotak2 {
+        width: 300px;
+        height: 690px;
+        padding-top: 15px;
+        padding-right: 90px;
+        margin-top: 70px;
+        background-color: rgba(220, 221, 225,0.8);
+    }
+    .register {
+        font-size: 30px;
+        padding-left: 80px;
+    }
+    .input2{
+        padding-top: 10px;
+    }
+    .butregis {
+        background-color:  #38ada9;
+        color: white;
+        border-radius: 50px;
+        height: 40px;
+        width: 150px;
+        transition: 0.3s;
+        border: 2px solid  #38ada9;;
+        margin-left: 90px;
+        margin-right: 25px;
+        margin-top: 20px;
+    }
+    .butregis:hover {
+        background-color: rgba(220, 221, 225,0.8);
+        color: #38ada9;
+    }
+</style>
+<body>
+    <div class="judul">Fill in this form</div>
+    <div class="display">
+    <div class="kotak1">
+        <div class="signin"><b><i>Sign in</i></b></div>
+        <form>
+            <div class="kiri">Email<br><input type="email" class="input" placeholder="nrp@maranatha.ac.id"></div>
+            <div class="kiri">Password<br><input type="password" class="input"></div>
+            <input type="button" value="Sign in" class="butsign">
+            <div class="forgot">forgot password?</div>
+        </form>
+    </div>
+    <div class="kotak2">
+        <div class="register"><b><i>Register</i></b></div>
+        <form>
+            <div class="kiri">Name<br><input type="text" class="input"></div>
+            <div class="kiri2">Email<br><input type="email" class="input"></div>
+            <div class="kiri2">Date of birth<br><input type="date" class="input"></div>
+            <div class="kiri2">Address<br><input type="text" class="input"></div>
+            <div class="kiri2">Gender<br><input type="radio" name="gender" class="input2">Male&nbsp;&nbsp;<input type="radio" name="gender" class="input2">Female</div>
+            <div class="kiri2">Hobby<br>
+            <input type="checkbox">Singing<br>
+            <input type="checkbox">Playing<br>
+            <input type="checkbox">Ngoding<br>
+            </div>
+            <input type="button" value="Register" class="butregis">
+        </form>
+    </div>
+</div>
+</body>
+</html>
